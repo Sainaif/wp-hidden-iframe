@@ -1,2 +1,2 @@
 # wp-hidden-iframe
-Uses AJAX to hash iframes
+Simple plugin that hashes iframes in wordpress using AJAX
