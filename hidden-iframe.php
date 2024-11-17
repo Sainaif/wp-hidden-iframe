@@ -38,27 +38,23 @@ function hide_iframe_urls($content) {
 add_filter('the_content', 'hide_iframe_urls');
 
 function get_iframe_url() {
-    if (isset($_POST['hash']) && isset($_POST['nonce']) && wp_verify_nonce($_POST['nonce'], 'get_iframe_url_nonce')) {
+    if (isset($_POST['hash'])) {
         $hash = sanitize_text_field($_POST['hash']);
         $url = get_transient('iframe_url_' . $hash);
-
         if ($url) {
             wp_send_json_success($url);
         } else {
             wp_send_json_error('Invalid hash or expired.');
         }
     }
-    wp_send_json_error('Invalid request.');
+    wp_send_json_error('No hash provided.');
 }
 add_action('wp_ajax_get_iframe_url', 'get_iframe_url');
 add_action('wp_ajax_nopriv_get_iframe_url', 'get_iframe_url');
 
 function hidden_iframe_enqueue_scripts() {
     wp_enqueue_script('hidden-iframe-script', plugin_dir_url(__FILE__) . 'hidden-iframe.js', array('jquery'), null, true);
-    wp_localize_script('hidden-iframe-script', 'hidden_iframe_ajax', array(
-        'ajax_url' => admin_url('admin-ajax.php'),
-        'nonce' => wp_create_nonce('get_iframe_url_nonce')
-    ));
+    wp_localize_script('hidden-iframe-script', 'hidden_iframe_ajax', array('ajax_url' => admin_url('admin-ajax.php')));
 }
 add_action('wp_enqueue_scripts', 'hidden_iframe_enqueue_scripts');
 ?>

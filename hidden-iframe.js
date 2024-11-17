@@ -15,20 +15,14 @@ jQuery(document).ready(function($) {
         } else {
             // Only set the src if it is not already set
             if (!$iframe.attr('src')) {
-                $.post(hidden_iframe_ajax.ajax_url, { 
-                    action: 'get_iframe_url', 
-                    hash: hash, 
-                    nonce: hidden_iframe_ajax.nonce 
-                }, function(response) {
+                $.post(hidden_iframe_ajax.ajax_url, { action: 'get_iframe_url', hash: hash }, function(response) {
                     if (response.success) {
                         $iframe.attr('src', response.data); // Set the src attribute after a successful response
                         $videoContent.slideDown();
                         $toggler.parent().addClass('active');
                     } else {
-                        alert(response.data || 'Could not load video. Please try again later.');
+                        alert('Could not load video. Please try again later.');
                     }
-                }).fail(function() {
-                    alert('An error occurred while processing the request.');
                 });
             } else {
                 $videoContent.slideDown();
