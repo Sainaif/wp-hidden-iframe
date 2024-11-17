@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
         var $toggler = $(this);
         var $videoContent = $toggler.next('.video-content');
         var $iframe = $videoContent.find('iframe');
-        var token = $toggler.data('token');
+        var hash = $toggler.data('hash');
 
         if ($videoContent.is(':visible')) {
             // Hide the video and remove the iframe src to prevent exposure
@@ -15,7 +15,7 @@ jQuery(document).ready(function($) {
         } else {
             // Only set the src if it is not already set
             if (!$iframe.attr('src')) {
-                $.post(hidden_iframe_ajax.ajax_url, { action: 'get_iframe_url', token: token }, function(response) {
+                $.post(hidden_iframe_ajax.ajax_url, { action: 'get_iframe_url', hash: hash }, function(response) {
                     if (response.success) {
                         $iframe.attr('src', response.data); // Set the src attribute after a successful response
                         $videoContent.slideDown();
