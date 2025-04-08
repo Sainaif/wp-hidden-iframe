@@ -1,8 +1,6 @@
 # Secure Hash & Embed Manager
 
 **Version:** 0.9  
-**Author:** Sainaif  
-**GitHub:** [Sainaif](https://github.com/Sainaif)
 
 ## Description
 
