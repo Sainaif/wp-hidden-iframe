@@ -94,7 +94,7 @@ class Activator {
 			'secure_embed_input_width'             => 400,
 			'secure_embed_show_edit_delete'        => 'on',
 			'secure_embed_pagination_per_page'     => 20,
-			'secure_embed_default_sort'            => 'ASC',
+			'secure_embed_default_sort'            => 'DESC',
 		);
 
 		// Set each option if it doesn't already exist

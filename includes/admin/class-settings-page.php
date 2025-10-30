@@ -54,7 +54,7 @@ class Settings_Page {
 		$input_width = get_option( 'secure_embed_input_width', 400 );
 		$show_edit_delete = get_option( 'secure_embed_show_edit_delete', 'on' );
 		$per_page = get_option( 'secure_embed_pagination_per_page', 20 );
-		$default_sort = get_option( 'secure_embed_default_sort', 'ASC' );
+		$default_sort = get_option( 'secure_embed_default_sort', 'DESC' );
 
 		// Render the page HTML
 		$this->render_page_html( $devtools_enabled, $devtools_url, $input_width, $show_edit_delete, $per_page, $default_sort );
@@ -107,9 +107,9 @@ class Settings_Page {
 		update_option( 'secure_embed_pagination_per_page', $per_page );
 
 		// Default sort order
-		$default_sort = isset( $_POST['default_sort'] ) ? sanitize_text_field( wp_unslash( $_POST['default_sort'] ) ) : 'ASC';
+		$default_sort = isset( $_POST['default_sort'] ) ? sanitize_text_field( wp_unslash( $_POST['default_sort'] ) ) : 'DESC';
 		if ( ! in_array( $default_sort, array( 'ASC', 'DESC' ), true ) ) {
-			$default_sort = 'ASC';
+			$default_sort = 'DESC';
 		}
 		update_option( 'secure_embed_default_sort', $default_sort );
 

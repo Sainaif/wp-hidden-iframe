@@ -58,9 +58,10 @@ class Videos_Page {
 		$this->handle_form_submissions();
 
 		// Get current page parameters
-		$search_term = isset( $_GET['search'] ) ? sanitize_text_field( wp_unslash( $_GET['search'] ) ) : '';
-		$order       = isset( $_GET['order'] ) ? sanitize_text_field( wp_unslash( $_GET['order'] ) ) : 'ASC';
-		$edit_id     = isset( $_GET['edit'] ) ? absint( $_GET['edit'] ) : 0;
+		$search_term  = isset( $_GET['search'] ) ? sanitize_text_field( wp_unslash( $_GET['search'] ) ) : '';
+		$default_sort = get_option( 'secure_embed_default_sort', 'DESC' );
+		$order        = isset( $_GET['order'] ) ? sanitize_text_field( wp_unslash( $_GET['order'] ) ) : $default_sort;
+		$edit_id      = isset( $_GET['edit'] ) ? absint( $_GET['edit'] ) : 0;
 		$current_page = isset( $_GET['paged'] ) ? max( 1, absint( $_GET['paged'] ) ) : 1;
 
 		// Get pagination setting
