@@ -279,7 +279,7 @@ class Settings_Page {
 					</tr>
 					<tr>
 						<th><?php esc_html_e( 'GitHub', 'secure-hash-embed-manager' ); ?></th>
-						<td><a href="https://github.com/Sainaif/wp-hidden-iframe-1" target="_blank">https://github.com/Sainaif/wp-hidden-iframe-1</a></td>
+						<td><a href="https://github.com/Sainaif/wp-hidden-iframe" target="_blank">https://github.com/Sainaif/wp-hidden-iframe</a></td>
 					</tr>
 					<tr>
 						<th><?php esc_html_e( 'License', 'secure-hash-embed-manager' ); ?></th>

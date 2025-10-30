@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Secure Hash & Embed Manager 1.0.0\n"
-"Report-Msgid-Bugs-To: https://github.com/Sainaif/wp-hidden-iframe-1/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/Sainaif/wp-hidden-iframe/issues\n"
 "POT-Creation-Date: 2025-01-30 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
