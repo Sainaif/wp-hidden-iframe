@@ -1,0 +1,400 @@
+# Polish translation for Secure Hash & Embed Manager
+# Copyright (C) 2025 Secure Hash & Embed Manager
+# This file is distributed under the MIT License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Secure Hash & Embed Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/Sainaif/wp-hidden-iframe-1/issues\n"
+"POT-Creation-Date: 2025-01-30 00:00+0000\n"
+"PO-Revision-Date: 2025-01-30 00:00+0000\n"
+"Last-Translator: Sainaif\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Manually created\n"
+
+msgid "Secure Embed Manager"
+msgstr "Menedżer Bezpiecznych Osadzeń"
+
+msgid "Secure Embed"
+msgstr "Bezpieczne Osadzanie"
+
+msgid "Video Manager"
+msgstr "Menedżer Wideo"
+
+msgid "Database Management"
+msgstr "Zarządzanie Bazą Danych"
+
+msgid "Plugin Settings"
+msgstr "Ustawienia Wtyczki"
+
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgid "Are you sure you want to delete this video?"
+msgstr "Czy na pewno chcesz usunąć to wideo?"
+
+msgid "This will permanently delete all videos. Are you sure?"
+msgstr "To trwale usunie wszystkie wideo. Czy jesteś pewien?"
+
+msgid "This will replace all existing videos. Continue?"
+msgstr "To zastąpi wszystkie istniejące wideo. Kontynuować?"
+
+msgid "Embed code copied to clipboard!"
+msgstr "Kod osadzenia skopiowany do schowka!"
+
+msgid "Failed to copy. Please try manually selecting the text."
+msgstr "Kopiowanie nie powiodło się. Spróbuj ręcznie zaznaczyć tekst."
+
+msgid "Please wait..."
+msgstr "Proszę czekać..."
+
+msgid "An error occurred. Please try again."
+msgstr "Wystąpił błąd. Spróbuj ponownie."
+
+msgid "Please fill out all fields."
+msgstr "Proszę wypełnić wszystkie pola."
+
+msgid "Please enter a valid URL."
+msgstr "Proszę wprowadzić prawidłowy adres URL."
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nie masz wystarczających uprawnień, aby uzyskać dostęp do tej strony."
+
+msgid "Video added successfully!"
+msgstr "Wideo dodano pomyślnie!"
+
+msgid "Failed to add video. Please check the URL is valid."
+msgstr "Nie udało się dodać wideo. Sprawdź, czy adres URL jest prawidłowy."
+
+msgid "Video updated successfully!"
+msgstr "Wideo zaktualizowano pomyślnie!"
+
+msgid "Failed to update video. Please check the URL is valid."
+msgstr "Nie udało się zaktualizować wideo. Sprawdź, czy adres URL jest prawidłowy."
+
+msgid "Video deleted successfully!"
+msgstr "Wideo usunięto pomyślnie!"
+
+msgid "Failed to delete video."
+msgstr "Nie udało się usunąć wideo."
+
+msgid "Add and manage secure video links with hashed IDs to hide real URLs."
+msgstr "Dodawaj i zarządzaj bezpiecznymi linkami do wideo z haszowanymi ID, aby ukryć prawdziwe adresy URL."
+
+msgid "Edit Video"
+msgstr "Edytuj Wideo"
+
+msgid "Admin Name (Internal)"
+msgstr "Nazwa Admina (Wewnętrzna)"
+
+msgid "Display Name (Public)"
+msgstr "Nazwa Wyświetlana (Publiczna)"
+
+msgid "Video URL"
+msgstr "Adres URL Wideo"
+
+msgid "Update Video"
+msgstr "Aktualizuj Wideo"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Add New Video"
+msgstr "Dodaj Nowe Wideo"
+
+msgid "Add Video"
+msgstr "Dodaj Wideo"
+
+#, php-format
+msgid "Video List (%d)"
+msgstr "Lista Wideo (%d)"
+
+msgid "Search videos..."
+msgstr "Szukaj wideo..."
+
+msgid "Search"
+msgstr "Szukaj"
+
+msgid "Clear"
+msgstr "Wyczyść"
+
+msgid "Sort: Oldest First"
+msgstr "Sortuj: Najstarsze Najpierw"
+
+msgid "Sort: Newest First"
+msgstr "Sortuj: Najnowsze Najpierw"
+
+msgid "No videos found."
+msgstr "Nie znaleziono wideo."
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Admin Name"
+msgstr "Nazwa Admina"
+
+msgid "Display Name"
+msgstr "Nazwa Wyświetlana"
+
+msgid "Unique ID"
+msgstr "Unikalny ID"
+
+msgid "Actions"
+msgstr "Akcje"
+
+msgid "Copy Embed"
+msgstr "Kopiuj Kod"
+
+msgid "Edit"
+msgstr "Edytuj"
+
+msgid "Delete"
+msgstr "Usuń"
+
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s element"
+msgstr[1] "%s elementy"
+msgstr[2] "%s elementów"
+
+msgid "&laquo;"
+msgstr "&laquo;"
+
+msgid "&raquo;"
+msgstr "&raquo;"
+
+msgid "How to Use"
+msgstr "Jak Używać"
+
+msgid "To embed a video on your site, use this HTML structure:"
+msgstr "Aby osadzić wideo na swojej stronie, użyj tej struktury HTML:"
+
+msgid "Replace \"vid_XXXXXXXXXX\" with the unique ID from the table above, and \"Video Name\" with your desired link text."
+msgstr "Zastąp \"vid_XXXXXXXXXX\" unikalnym ID z powyższej tabeli, a \"Nazwa Wideo\" wybranym tekstem linku."
+
+#, php-format
+msgid "Current database contains %d videos."
+msgstr "Aktualna baza danych zawiera %d wideo."
+
+msgid "Download Backup (JSON)"
+msgstr "Pobierz Kopię Zapasową (JSON)"
+
+msgid "Download all videos as a JSON backup file. This file can be used to restore your data later."
+msgstr "Pobierz wszystkie wideo jako plik kopii zapasowej JSON. Ten plik może być użyty do późniejszego przywrócenia danych."
+
+msgid "Download Database as JSON"
+msgstr "Pobierz Bazę Danych jako JSON"
+
+msgid "Restore from Backup (JSON)"
+msgstr "Przywróć z Kopii Zapasowej (JSON)"
+
+msgid "WARNING:"
+msgstr "OSTRZEŻENIE:"
+
+msgid "This will DELETE all current videos and replace them with the backup data. This action cannot be undone!"
+msgstr "To USUNIE wszystkie obecne wideo i zastąpi je danymi z kopii zapasowej. Tej operacji nie można cofnąć!"
+
+msgid "Select JSON File"
+msgstr "Wybierz Plik JSON"
+
+msgid "Confirmation"
+msgstr "Potwierdzenie"
+
+msgid "Type exactly:"
+msgstr "Wpisz dokładnie:"
+
+msgid "Restore from Backup"
+msgstr "Przywróć z Kopii Zapasowej"
+
+msgid "Import from CSV"
+msgstr "Importuj z CSV"
+
+msgid "Import videos from a CSV file. The CSV should have columns: db_name, embed_name, link"
+msgstr "Importuj wideo z pliku CSV. Plik CSV powinien zawierać kolumny: db_name, embed_name, link"
+
+msgid "Duplicate links will be skipped. New unique IDs will be generated automatically."
+msgstr "Duplikaty linków zostaną pominięte. Nowe unikalne ID zostaną wygenerowane automatycznie."
+
+msgid "CSV Format Example:"
+msgstr "Przykład Formatu CSV:"
+
+msgid "Select CSV File"
+msgstr "Wybierz Plik CSV"
+
+msgid "Reset Database"
+msgstr "Resetuj Bazę Danych"
+
+msgid "DANGER:"
+msgstr "NIEBEZPIECZEŃSTWO:"
+
+msgid "This will DROP the database table and recreate it empty. ALL videos will be permanently deleted. This action cannot be undone!"
+msgstr "To USUNIE tabelę bazy danych i utworzy ją ponownie pustą. WSZYSTKIE wideo zostaną trwale usunięte. Tej operacji nie można cofnąć!"
+
+msgid "Tips"
+msgstr "Wskazówki"
+
+msgid "Always create a backup before performing restore or reset operations."
+msgstr "Zawsze twórz kopię zapasową przed wykonaniem operacji przywracania lub resetowania."
+
+msgid "JSON backups preserve unique IDs, while CSV imports generate new ones."
+msgstr "Kopie zapasowe JSON zachowują unikalne ID, podczas gdy import CSV generuje nowe."
+
+msgid "CSV import skips duplicate URLs automatically to prevent data duplication."
+msgstr "Import CSV automatycznie pomija duplikaty adresów URL, aby zapobiec duplikacji danych."
+
+msgid "Database reset is useful for starting fresh or troubleshooting issues."
+msgstr "Reset bazy danych jest przydatny do rozpoczęcia od nowa lub rozwiązywania problemów."
+
+msgid "Incorrect confirmation text. Restore cancelled."
+msgstr "Nieprawidłowy tekst potwierdzenia. Przywracanie anulowane."
+
+msgid "Please select a JSON file to restore."
+msgstr "Proszę wybrać plik JSON do przywrócenia."
+
+msgid "Please upload a valid JSON file."
+msgstr "Proszę przesłać prawidłowy plik JSON."
+
+msgid "Please select a CSV file to import."
+msgstr "Proszę wybrać plik CSV do importu."
+
+msgid "Please upload a valid CSV file."
+msgstr "Proszę przesłać prawidłowy plik CSV."
+
+msgid "Incorrect confirmation text. Reset cancelled."
+msgstr "Nieprawidłowy tekst potwierdzenia. Resetowanie anulowane."
+
+msgid "Database reset successfully. All videos have been deleted."
+msgstr "Baza danych zresetowana pomyślnie. Wszystkie wideo zostały usunięte."
+
+msgid "Failed to reset database."
+msgstr "Nie udało się zresetować bazy danych."
+
+msgid "Configure plugin behavior and appearance."
+msgstr "Skonfiguruj zachowanie i wygląd wtyczki."
+
+msgid "Security Settings"
+msgstr "Ustawienia Bezpieczeństwa"
+
+msgid "Block DevTools"
+msgstr "Blokuj DevTools"
+
+msgid "Enabled"
+msgstr "Włączone"
+
+msgid "Disabled"
+msgstr "Wyłączone"
+
+msgid "Enable browser DevTools detection and blocking on the frontend. When enabled, users who open DevTools will be redirected."
+msgstr "Włącz wykrywanie i blokowanie narzędzi deweloperskich przeglądarki na froncie. Po włączeniu użytkownicy, którzy otworzą DevTools, zostaną przekierowani."
+
+msgid "Redirect URL"
+msgstr "Adres URL Przekierowania"
+
+msgid "URL to redirect users when DevTools are detected. Default is your site's 404 page."
+msgstr "Adres URL do przekierowania użytkowników, gdy wykryto DevTools. Domyślnie jest to strona 404 Twojej witryny."
+
+msgid "Interface Settings"
+msgstr "Ustawienia Interfejsu"
+
+msgid "Input Field Width"
+msgstr "Szerokość Pól Wprowadzania"
+
+msgid "pixels"
+msgstr "pikseli"
+
+msgid "Width of input fields in the admin interface (50-2000 pixels)."
+msgstr "Szerokość pól wprowadzania w interfejsie administratora (50-2000 pikseli)."
+
+msgid "Show Edit/Delete Buttons"
+msgstr "Pokaż Przyciski Edytuj/Usuń"
+
+msgid "Show"
+msgstr "Pokaż"
+
+msgid "Hide"
+msgstr "Ukryj"
+
+msgid "Show or hide edit and delete buttons in the video list table."
+msgstr "Pokaż lub ukryj przyciski edycji i usuwania w tabeli listy wideo."
+
+msgid "Videos Per Page"
+msgstr "Wideo Na Stronę"
+
+msgid "Number of videos to display per page in the video list."
+msgstr "Liczba wideo do wyświetlenia na stronie w liście wideo."
+
+msgid "Default Sort Order"
+msgstr "Domyślna Kolejność Sortowania"
+
+msgid "Oldest First (Ascending)"
+msgstr "Najstarsze Najpierw (Rosnąco)"
+
+msgid "Newest First (Descending)"
+msgstr "Najnowsze Najpierw (Malejąco)"
+
+msgid "Default sorting order for the video list."
+msgstr "Domyślna kolejność sortowania dla listy wideo."
+
+msgid "Save Settings"
+msgstr "Zapisz Ustawienia"
+
+msgid "Settings saved successfully!"
+msgstr "Ustawienia zapisane pomyślnie!"
+
+msgid "Plugin Information"
+msgstr "Informacje o Wtyczce"
+
+msgid "Version"
+msgstr "Wersja"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "GitHub"
+msgstr "GitHub"
+
+msgid "License"
+msgstr "Licencja"
+
+msgid "Language"
+msgstr "Język"
+
+msgid "Polish"
+msgstr "Polski"
+
+msgid "English"
+msgstr "Angielski"
+
+msgid "Security check failed"
+msgstr "Sprawdzenie bezpieczeństwa nie powiodło się"
+
+msgid "Video ID is required"
+msgstr "ID wideo jest wymagane"
+
+msgid "Invalid video ID format"
+msgstr "Nieprawidłowy format ID wideo"
+
+msgid "Video not found"
+msgstr "Nie znaleziono wideo"
+
+msgid "Invalid JSON data"
+msgstr "Nieprawidłowe dane JSON"
+
+#, php-format
+msgid "Successfully imported %d videos"
+msgstr "Pomyślnie zaimportowano %d wideo"
+
+msgid "CSV file is empty"
+msgstr "Plik CSV jest pusty"
+
+#, php-format
+msgid "Imported %1$d videos, skipped %2$d duplicates/errors"
+msgstr "Zaimportowano %1$d wideo, pominięto %2$d duplikatów/błędów"
+
+msgid "Cannot unserialize singleton"
+msgstr "Nie można deserializować singletona"

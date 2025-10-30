@@ -1,0 +1,404 @@
+# Copyright (C) 2025 Secure Hash & Embed Manager
+# This file is distributed under the MIT License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Secure Hash & Embed Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/Sainaif/wp-hidden-iframe-1/issues\n"
+"POT-Creation-Date: 2025-01-30 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Manually created\n"
+
+#: includes/admin/class-admin-menu.php
+msgid "Secure Embed Manager"
+msgstr ""
+
+msgid "Secure Embed"
+msgstr ""
+
+msgid "Video Manager"
+msgstr ""
+
+msgid "Database Management"
+msgstr ""
+
+msgid "Plugin Settings"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Are you sure you want to delete this video?"
+msgstr ""
+
+msgid "This will permanently delete all videos. Are you sure?"
+msgstr ""
+
+msgid "This will replace all existing videos. Continue?"
+msgstr ""
+
+msgid "Embed code copied to clipboard!"
+msgstr ""
+
+msgid "Failed to copy. Please try manually selecting the text."
+msgstr ""
+
+msgid "Please wait..."
+msgstr ""
+
+msgid "An error occurred. Please try again."
+msgstr ""
+
+msgid "Please fill out all fields."
+msgstr ""
+
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: includes/admin/class-videos-page.php
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+msgid "Video added successfully!"
+msgstr ""
+
+msgid "Failed to add video. Please check the URL is valid."
+msgstr ""
+
+msgid "Video updated successfully!"
+msgstr ""
+
+msgid "Failed to update video. Please check the URL is valid."
+msgstr ""
+
+msgid "Video deleted successfully!"
+msgstr ""
+
+msgid "Failed to delete video."
+msgstr ""
+
+msgid "Add and manage secure video links with hashed IDs to hide real URLs."
+msgstr ""
+
+msgid "Edit Video"
+msgstr ""
+
+msgid "Admin Name (Internal)"
+msgstr ""
+
+msgid "Display Name (Public)"
+msgstr ""
+
+msgid "Video URL"
+msgstr ""
+
+msgid "Update Video"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Add New Video"
+msgstr ""
+
+msgid "Add Video"
+msgstr ""
+
+#, php-format
+msgid "Video List (%d)"
+msgstr ""
+
+msgid "Search videos..."
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Sort: Oldest First"
+msgstr ""
+
+msgid "Sort: Newest First"
+msgstr ""
+
+msgid "No videos found."
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Admin Name"
+msgstr ""
+
+msgid "Display Name"
+msgstr ""
+
+msgid "Unique ID"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Copy Embed"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "&laquo;"
+msgstr ""
+
+msgid "&raquo;"
+msgstr ""
+
+msgid "How to Use"
+msgstr ""
+
+msgid "To embed a video on your site, use this HTML structure:"
+msgstr ""
+
+msgid "Replace \"vid_XXXXXXXXXX\" with the unique ID from the table above, and \"Video Name\" with your desired link text."
+msgstr ""
+
+#: includes/admin/class-database-page.php
+#, php-format
+msgid "Current database contains %d videos."
+msgstr ""
+
+msgid "Download Backup (JSON)"
+msgstr ""
+
+msgid "Download all videos as a JSON backup file. This file can be used to restore your data later."
+msgstr ""
+
+msgid "Download Database as JSON"
+msgstr ""
+
+msgid "Restore from Backup (JSON)"
+msgstr ""
+
+msgid "WARNING:"
+msgstr ""
+
+msgid "This will DELETE all current videos and replace them with the backup data. This action cannot be undone!"
+msgstr ""
+
+msgid "Select JSON File"
+msgstr ""
+
+msgid "Confirmation"
+msgstr ""
+
+msgid "Type exactly:"
+msgstr ""
+
+msgid "Restore from Backup"
+msgstr ""
+
+msgid "Import from CSV"
+msgstr ""
+
+msgid "Import videos from a CSV file. The CSV should have columns: db_name, embed_name, link"
+msgstr ""
+
+msgid "Duplicate links will be skipped. New unique IDs will be generated automatically."
+msgstr ""
+
+msgid "CSV Format Example:"
+msgstr ""
+
+msgid "Select CSV File"
+msgstr ""
+
+msgid "Reset Database"
+msgstr ""
+
+msgid "DANGER:"
+msgstr ""
+
+msgid "This will DROP the database table and recreate it empty. ALL videos will be permanently deleted. This action cannot be undone!"
+msgstr ""
+
+msgid "Tips"
+msgstr ""
+
+msgid "Always create a backup before performing restore or reset operations."
+msgstr ""
+
+msgid "JSON backups preserve unique IDs, while CSV imports generate new ones."
+msgstr ""
+
+msgid "CSV import skips duplicate URLs automatically to prevent data duplication."
+msgstr ""
+
+msgid "Database reset is useful for starting fresh or troubleshooting issues."
+msgstr ""
+
+msgid "Incorrect confirmation text. Restore cancelled."
+msgstr ""
+
+msgid "Please select a JSON file to restore."
+msgstr ""
+
+msgid "Please upload a valid JSON file."
+msgstr ""
+
+msgid "Please select a CSV file to import."
+msgstr ""
+
+msgid "Please upload a valid CSV file."
+msgstr ""
+
+msgid "Incorrect confirmation text. Reset cancelled."
+msgstr ""
+
+msgid "Database reset successfully. All videos have been deleted."
+msgstr ""
+
+msgid "Failed to reset database."
+msgstr ""
+
+#: includes/admin/class-settings-page.php
+msgid "Configure plugin behavior and appearance."
+msgstr ""
+
+msgid "Security Settings"
+msgstr ""
+
+msgid "Block DevTools"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Enable browser DevTools detection and blocking on the frontend. When enabled, users who open DevTools will be redirected."
+msgstr ""
+
+msgid "Redirect URL"
+msgstr ""
+
+msgid "URL to redirect users when DevTools are detected. Default is your site's 404 page."
+msgstr ""
+
+msgid "Interface Settings"
+msgstr ""
+
+msgid "Input Field Width"
+msgstr ""
+
+msgid "pixels"
+msgstr ""
+
+msgid "Width of input fields in the admin interface (50-2000 pixels)."
+msgstr ""
+
+msgid "Show Edit/Delete Buttons"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "Hide"
+msgstr ""
+
+msgid "Show or hide edit and delete buttons in the video list table."
+msgstr ""
+
+msgid "Videos Per Page"
+msgstr ""
+
+msgid "Number of videos to display per page in the video list."
+msgstr ""
+
+msgid "Default Sort Order"
+msgstr ""
+
+msgid "Oldest First (Ascending)"
+msgstr ""
+
+msgid "Newest First (Descending)"
+msgstr ""
+
+msgid "Default sorting order for the video list."
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "Settings saved successfully!"
+msgstr ""
+
+msgid "Plugin Information"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "GitHub"
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Polish"
+msgstr ""
+
+msgid "English"
+msgstr ""
+
+#: includes/class-ajax-handler.php
+msgid "Security check failed"
+msgstr ""
+
+msgid "Video ID is required"
+msgstr ""
+
+msgid "Invalid video ID format"
+msgstr ""
+
+msgid "Video not found"
+msgstr ""
+
+#: includes/class-database.php
+msgid "Invalid JSON data"
+msgstr ""
+
+#, php-format
+msgid "Successfully imported %d videos"
+msgstr ""
+
+msgid "CSV file is empty"
+msgstr ""
+
+#, php-format
+msgid "Imported %1$d videos, skipped %2$d duplicates/errors"
+msgstr ""
+
+#: includes/class-plugin.php
+msgid "Cannot unserialize singleton"
+msgstr ""
